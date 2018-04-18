@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5728852086F680002787DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728842086F680002787DB /* main.m */; };
+		5F5728882086F680002787DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728872086F680002787DB /* AppDelegate.m */; };
+		5F57288B2086F680002787DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57288A2086F680002787DB /* ViewController.m */; };
+		5F57288E2086F680002787DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F57288C2086F680002787DB /* Main.storyboard */; };
+		5F5728902086F680002787DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F57288F2086F680002787DB /* Assets.xcassets */; };
+		5F5728932086F680002787DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5728912086F680002787DB /* LaunchScreen.storyboard */; };
+		5F57289E2086F680002787DB /* OwenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57289D2086F680002787DB /* OwenTests.m */; };
+		5F5728A92086F680002787DB /* OwenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728A82086F680002787DB /* OwenUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F57289A2086F680002787DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5728782086F680002787DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F57287F2086F680002787DB;
+			remoteInfo = Owen;
+		};
+		5F5728A52086F680002787DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5728782086F680002787DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F57287F2086F680002787DB;
+			remoteInfo = Owen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5728802086F680002787DB /* Owen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5728842086F680002787DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F5728862086F680002787DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F5728872086F680002787DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F5728892086F680002787DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F57288A2086F680002787DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F57288D2086F680002787DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F57288F2086F680002787DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F5728922086F680002787DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F5728942086F680002787DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5728992086F680002787DB /* OwenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F57289D2086F680002787DB /* OwenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwenTests.m; sourceTree = "<group>"; };
+		5F57289F2086F680002787DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5728A42086F680002787DB /* OwenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5728A82086F680002787DB /* OwenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwenUITests.m; sourceTree = "<group>"; };
+		5F5728AA2086F680002787DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F57287D2086F680002787DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728962086F680002787DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728A12086F680002787DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5728772086F680002787DB = {
+			isa = PBXGroup;
+			children = (
+				5F5728822086F680002787DB /* Owen */,
+				5F57289C2086F680002787DB /* OwenTests */,
+				5F5728A72086F680002787DB /* OwenUITests */,
+				5F5728812086F680002787DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5728812086F680002787DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5728802086F680002787DB /* Owen.app */,
+				5F5728992086F680002787DB /* OwenTests.xctest */,
+				5F5728A42086F680002787DB /* OwenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5728822086F680002787DB /* Owen */ = {
+			isa = PBXGroup;
+			children = (
+				5F5728862086F680002787DB /* AppDelegate.h */,
+				5F5728872086F680002787DB /* AppDelegate.m */,
+				5F5728892086F680002787DB /* ViewController.h */,
+				5F57288A2086F680002787DB /* ViewController.m */,
+				5F57288C2086F680002787DB /* Main.storyboard */,
+				5F57288F2086F680002787DB /* Assets.xcassets */,
+				5F5728912086F680002787DB /* LaunchScreen.storyboard */,
+				5F5728942086F680002787DB /* Info.plist */,
+				5F5728832086F680002787DB /* Supporting Files */,
+			);
+			path = Owen;
+			sourceTree = "<group>";
+		};
+		5F5728832086F680002787DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5728842086F680002787DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F57289C2086F680002787DB /* OwenTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F57289D2086F680002787DB /* OwenTests.m */,
+				5F57289F2086F680002787DB /* Info.plist */,
+			);
+			path = OwenTests;
+			sourceTree = "<group>";
+		};
+		5F5728A72086F680002787DB /* OwenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5728A82086F680002787DB /* OwenUITests.m */,
+				5F5728AA2086F680002787DB /* Info.plist */,
+			);
+			path = OwenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F57287F2086F680002787DB /* Owen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5728AD2086F680002787DB /* Build configuration list for PBXNativeTarget "Owen" */;
+			buildPhases = (
+				5F57287C2086F680002787DB /* Sources */,
+				5F57287D2086F680002787DB /* Frameworks */,
+				5F57287E2086F680002787DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Owen;
+			productName = Owen;
+			productReference = 5F5728802086F680002787DB /* Owen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5728982086F680002787DB /* OwenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5728B02086F680002787DB /* Build configuration list for PBXNativeTarget "OwenTests" */;
+			buildPhases = (
+				5F5728952086F680002787DB /* Sources */,
+				5F5728962086F680002787DB /* Frameworks */,
+				5F5728972086F680002787DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F57289B2086F680002787DB /* PBXTargetDependency */,
+			);
+			name = OwenTests;
+			productName = OwenTests;
+			productReference = 5F5728992086F680002787DB /* OwenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F5728A32086F680002787DB /* OwenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5728B32086F680002787DB /* Build configuration list for PBXNativeTarget "OwenUITests" */;
+			buildPhases = (
+				5F5728A02086F680002787DB /* Sources */,
+				5F5728A12086F680002787DB /* Frameworks */,
+				5F5728A22086F680002787DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5728A62086F680002787DB /* PBXTargetDependency */,
+			);
+			name = OwenUITests;
+			productName = OwenUITests;
+			productReference = 5F5728A42086F680002787DB /* OwenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5728782086F680002787DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = " P1no";
+				TargetAttributes = {
+					5F57287F2086F680002787DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQGKZW3CLA;
+						ProvisioningStyle = Automatic;
+					};
+					5F5728982086F680002787DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQGKZW3CLA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F57287F2086F680002787DB;
+					};
+					5F5728A32086F680002787DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQGKZW3CLA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F57287F2086F680002787DB;
+					};
+				};
+			};
+			buildConfigurationList = 5F57287B2086F680002787DB /* Build configuration list for PBXProject "Owen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5728772086F680002787DB;
+			productRefGroup = 5F5728812086F680002787DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F57287F2086F680002787DB /* Owen */,
+				5F5728982086F680002787DB /* OwenTests */,
+				5F5728A32086F680002787DB /* OwenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F57287E2086F680002787DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5728932086F680002787DB /* LaunchScreen.storyboard in Resources */,
+				5F5728902086F680002787DB /* Assets.xcassets in Resources */,
+				5F57288E2086F680002787DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728972086F680002787DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728A22086F680002787DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F57287C2086F680002787DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F57288B2086F680002787DB /* ViewController.m in Sources */,
+				5F5728882086F680002787DB /* AppDelegate.m in Sources */,
+				5F5728852086F680002787DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728952086F680002787DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F57289E2086F680002787DB /* OwenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5728A02086F680002787DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5728A92086F680002787DB /* OwenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F57289B2086F680002787DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F57287F2086F680002787DB /* Owen */;
+			targetProxy = 5F57289A2086F680002787DB /* PBXContainerItemProxy */;
+		};
+		5F5728A62086F680002787DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F57287F2086F680002787DB /* Owen */;
+			targetProxy = 5F5728A52086F680002787DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F57288C2086F680002787DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F57288D2086F680002787DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F5728912086F680002787DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5728922086F680002787DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5728AB2086F680002787DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F5728AC2086F680002787DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5728AE2086F680002787DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = Owen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.Owen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F5728AF2086F680002787DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = Owen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.Owen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F5728B12086F680002787DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = OwenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.OwenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owen.app/Owen";
+			};
+			name = Debug;
+		};
+		5F5728B22086F680002787DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = OwenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.OwenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owen.app/Owen";
+			};
+			name = Release;
+		};
+		5F5728B42086F680002787DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = OwenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.OwenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Owen;
+			};
+			name = Debug;
+		};
+		5F5728B52086F680002787DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FQGKZW3CLA;
+				INFOPLIST_FILE = OwenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P1no.OwenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Owen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F57287B2086F680002787DB /* Build configuration list for PBXProject "Owen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5728AB2086F680002787DB /* Debug */,
+				5F5728AC2086F680002787DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5728AD2086F680002787DB /* Build configuration list for PBXNativeTarget "Owen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5728AE2086F680002787DB /* Debug */,
+				5F5728AF2086F680002787DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F5728B02086F680002787DB /* Build configuration list for PBXNativeTarget "OwenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5728B12086F680002787DB /* Debug */,
+				5F5728B22086F680002787DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F5728B32086F680002787DB /* Build configuration list for PBXNativeTarget "OwenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5728B42086F680002787DB /* Debug */,
+				5F5728B52086F680002787DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5728782086F680002787DB /* Project object */;
+}
