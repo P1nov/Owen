@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0D61152087197E00780DC9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D61142087197E00780DC9 /* SecondViewController.m */; };
 		5F5728852086F680002787DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728842086F680002787DB /* main.m */; };
 		5F5728882086F680002787DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728872086F680002787DB /* AppDelegate.m */; };
 		5F57288B2086F680002787DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57288A2086F680002787DB /* ViewController.m */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		574688E3C113D6083FD1912F /* Pods-OwenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwenTests/Pods-OwenTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F0D61132087197E00780DC9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5F0D61142087197E00780DC9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5F5728802086F680002787DB /* Owen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5728842086F680002787DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F5728862086F680002787DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				5F5728832086F680002787DB /* Supporting Files */,
 				5F5728B62086F745002787DB /* MyTableViewCell.h */,
 				5F5728B72086F745002787DB /* MyTableViewCell.m */,
+				5F0D61132087197E00780DC9 /* SecondViewController.h */,
+				5F0D61142087197E00780DC9 /* SecondViewController.m */,
 			);
 			path = Owen;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0D61152087197E00780DC9 /* SecondViewController.m in Sources */,
 				5F57288B2086F680002787DB /* ViewController.m in Sources */,
 				5F5728B82086F745002787DB /* MyTableViewCell.m in Sources */,
 				5F5728882086F680002787DB /* AppDelegate.m in Sources */,

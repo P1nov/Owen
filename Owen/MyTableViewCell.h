@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+//
+@protocol ClickImageDelegate<NSObject>
 
+-(void)clickImageRespond;
 
+@end
 
 @interface MyTableViewCell : UITableViewCell
 
 @property(nonatomic, strong) UIImageView *imageView1;
 
 @property(nonatomic, strong) UIImageView *imageView2;
+
+@property(nonatomic, weak) id<ClickImageDelegate> delegate;
 
 @end

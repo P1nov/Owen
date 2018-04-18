@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import "MyTableViewCell.h"
+#import "SecondViewController.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource,ClickImageDelegate>
 
 //存放任务的数组
 @property (nonatomic, strong) NSMutableArray *saveTaskMarr;
@@ -52,6 +53,9 @@
     if(cell == nil){
         cell = [[MyTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellID"];
     }
+    cell.delegate = self;
+//    [cell.imageView1 addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clickImageRespond)]];
+//    cell.delegate = self;
 //    [self addImageToCell:cell];
     //添加任务到数组
     __weak typeof(self) weakSelf = self;
@@ -60,6 +64,11 @@
         [weakSelf addImageToCell:cell];
     }];
     return cell;
+}
+
+-(void)clickImageRespond{
+    SecondViewController *svc = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:svc animated:YES];
 }
 
 -(void)addTask:(SaveFuncBlock)block{
