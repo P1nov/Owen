@@ -15,6 +15,19 @@
     // Initialization code
 }
 
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if(self){
+        _imageView1 = [[UIImageView alloc]init];
+        _imageView2 = [[UIImageView alloc]init];
+        _imageView1.frame = CGRectMake(5, 5, 40, 40);
+        _imageView2.frame = CGRectMake(50, 5, 40, 40);
+        [self.contentView addSubview:_imageView1];
+        [self.contentView addSubview:_imageView2];
+    }
+    return self;
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

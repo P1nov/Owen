@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^SaveFuncBlock)();
+
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) UITableView *myTableView;
 
 @end
 

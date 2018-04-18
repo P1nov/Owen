@@ -15,6 +15,10 @@
 		5F5728932086F680002787DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5728912086F680002787DB /* LaunchScreen.storyboard */; };
 		5F57289E2086F680002787DB /* OwenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57289D2086F680002787DB /* OwenTests.m */; };
 		5F5728A92086F680002787DB /* OwenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728A82086F680002787DB /* OwenUITests.m */; };
+		5F5728B82086F745002787DB /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5728B72086F745002787DB /* MyTableViewCell.m */; };
+		CFE8D19FA80F57FEB2F62F20 /* libPods-OwenUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF64C85436C9D5FDE616AA6 /* libPods-OwenUITests.a */; };
+		F824DFDB82A9357A06E5D692 /* libPods-Owen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7866CB809F3E7FF1F3C96790 /* libPods-Owen.a */; };
+		FBA084496D5204FD0D9CAD5B /* libPods-OwenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D839D340AF097E32CCBA67DC /* libPods-OwenTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574688E3C113D6083FD1912F /* Pods-OwenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwenTests/Pods-OwenTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F5728802086F680002787DB /* Owen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5728842086F680002787DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F5728862086F680002787DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		5F5728A42086F680002787DB /* OwenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5728A82086F680002787DB /* OwenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwenUITests.m; sourceTree = "<group>"; };
 		5F5728AA2086F680002787DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5728B62086F745002787DB /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		5F5728B72086F745002787DB /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		7866CB809F3E7FF1F3C96790 /* libPods-Owen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Owen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0AEF99DAA10569FD0E5ECA /* Pods-OwenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwenUITests/Pods-OwenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7152A3A96F67E21A8AF61B4 /* Pods-Owen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Owen/Pods-Owen.release.xcconfig"; sourceTree = "<group>"; };
+		B70DC967C9DB5632ABF7C419 /* Pods-Owen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Owen/Pods-Owen.debug.xcconfig"; sourceTree = "<group>"; };
+		D839D340AF097E32CCBA67DC /* libPods-OwenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OwenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D964A90F05CB569C9820C85E /* Pods-OwenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwenTests/Pods-OwenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E76434B3CB53796B4501D028 /* Pods-OwenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwenUITests/Pods-OwenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDF64C85436C9D5FDE616AA6 /* libPods-OwenUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OwenUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F824DFDB82A9357A06E5D692 /* libPods-Owen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA084496D5204FD0D9CAD5B /* libPods-OwenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE8D19FA80F57FEB2F62F20 /* libPods-OwenUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				5F57289C2086F680002787DB /* OwenTests */,
 				5F5728A72086F680002787DB /* OwenUITests */,
 				5F5728812086F680002787DB /* Products */,
+				B83BFBBA5A88344D1D5D2A7D /* Pods */,
+				DC1419066EBF424517DFD032 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,8 @@
 				5F5728912086F680002787DB /* LaunchScreen.storyboard */,
 				5F5728942086F680002787DB /* Info.plist */,
 				5F5728832086F680002787DB /* Supporting Files */,
+				5F5728B62086F745002787DB /* MyTableViewCell.h */,
+				5F5728B72086F745002787DB /* MyTableViewCell.m */,
 			);
 			path = Owen;
 			sourceTree = "<group>";
@@ -140,6 +162,29 @@
 			path = OwenUITests;
 			sourceTree = "<group>";
 		};
+		B83BFBBA5A88344D1D5D2A7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B70DC967C9DB5632ABF7C419 /* Pods-Owen.debug.xcconfig */,
+				A7152A3A96F67E21A8AF61B4 /* Pods-Owen.release.xcconfig */,
+				D964A90F05CB569C9820C85E /* Pods-OwenTests.debug.xcconfig */,
+				574688E3C113D6083FD1912F /* Pods-OwenTests.release.xcconfig */,
+				7D0AEF99DAA10569FD0E5ECA /* Pods-OwenUITests.debug.xcconfig */,
+				E76434B3CB53796B4501D028 /* Pods-OwenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC1419066EBF424517DFD032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7866CB809F3E7FF1F3C96790 /* libPods-Owen.a */,
+				D839D340AF097E32CCBA67DC /* libPods-OwenTests.a */,
+				FDF64C85436C9D5FDE616AA6 /* libPods-OwenUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5728AD2086F680002787DB /* Build configuration list for PBXNativeTarget "Owen" */;
 			buildPhases = (
+				5C8144E5520FED34A80E195B /* [CP] Check Pods Manifest.lock */,
 				5F57287C2086F680002787DB /* Sources */,
 				5F57287D2086F680002787DB /* Frameworks */,
 				5F57287E2086F680002787DB /* Resources */,
+				B4D1D602DDEC1DB6A4EA8AD8 /* [CP] Embed Pods Frameworks */,
+				93E87FF2E29CC1DC745FED68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5728B02086F680002787DB /* Build configuration list for PBXNativeTarget "OwenTests" */;
 			buildPhases = (
+				67682A08C2FA19BD0152E3FB /* [CP] Check Pods Manifest.lock */,
 				5F5728952086F680002787DB /* Sources */,
 				5F5728962086F680002787DB /* Frameworks */,
 				5F5728972086F680002787DB /* Resources */,
+				98B487E72B561DBCF7C963F3 /* [CP] Embed Pods Frameworks */,
+				186358B7F6FEEE65E5939AB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5728B32086F680002787DB /* Build configuration list for PBXNativeTarget "OwenUITests" */;
 			buildPhases = (
+				7029E077D49B6E70073B3B7A /* [CP] Check Pods Manifest.lock */,
 				5F5728A02086F680002787DB /* Sources */,
 				5F5728A12086F680002787DB /* Frameworks */,
 				5F5728A22086F680002787DB /* Resources */,
+				FF56E350D20B4D96EFE2F881 /* [CP] Embed Pods Frameworks */,
+				540D198545E952C807D0AA6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +325,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		186358B7F6FEEE65E5939AB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwenTests/Pods-OwenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540D198545E952C807D0AA6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwenUITests/Pods-OwenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8144E5520FED34A80E195B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67682A08C2FA19BD0152E3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7029E077D49B6E70073B3B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E87FF2E29CC1DC745FED68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Owen/Pods-Owen-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Owen/Pods-Owen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B487E72B561DBCF7C963F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwenTests/Pods-OwenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D1D602DDEC1DB6A4EA8AD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Owen/Pods-Owen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF56E350D20B4D96EFE2F881 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwenUITests/Pods-OwenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F57287C2086F680002787DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F57288B2086F680002787DB /* ViewController.m in Sources */,
+				5F5728B82086F745002787DB /* MyTableViewCell.m in Sources */,
 				5F5728882086F680002787DB /* AppDelegate.m in Sources */,
 				5F5728852086F680002787DB /* main.m in Sources */,
 			);
@@ -427,6 +632,7 @@
 		};
 		5F5728AE2086F680002787DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70DC967C9DB5632ABF7C419 /* Pods-Owen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
@@ -439,6 +645,7 @@
 		};
 		5F5728AF2086F680002787DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7152A3A96F67E21A8AF61B4 /* Pods-Owen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
@@ -451,6 +658,7 @@
 		};
 		5F5728B12086F680002787DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D964A90F05CB569C9820C85E /* Pods-OwenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
@@ -464,6 +672,7 @@
 		};
 		5F5728B22086F680002787DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574688E3C113D6083FD1912F /* Pods-OwenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
@@ -477,6 +686,7 @@
 		};
 		5F5728B42086F680002787DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0AEF99DAA10569FD0E5ECA /* Pods-OwenUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
 				INFOPLIST_FILE = OwenUITests/Info.plist;
@@ -489,6 +699,7 @@
 		};
 		5F5728B52086F680002787DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76434B3CB53796B4501D028 /* Pods-OwenUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
 				INFOPLIST_FILE = OwenUITests/Info.plist;
@@ -518,6 +729,7 @@
 				5F5728AF2086F680002787DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F5728B02086F680002787DB /* Build configuration list for PBXNativeTarget "OwenTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +738,7 @@
 				5F5728B22086F680002787DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F5728B32086F680002787DB /* Build configuration list for PBXNativeTarget "OwenUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +747,7 @@
 				5F5728B52086F680002787DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
